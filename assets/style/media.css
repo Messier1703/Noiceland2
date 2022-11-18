@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .cards__grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 390px) {
+    .container {
+        max-width: 370px;
+    }
+    
+    .main__grid {
+        grid-template-columns: 1fr;
+        row-gap: 51px;
+    }
+
+    .cards__grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .header__link:not(:first-child) {
+        padding-left: 20px;
+    }
+}
